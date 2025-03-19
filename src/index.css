@@ -1,0 +1,42 @@
+body{
+  margin: 0em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*ESTILOS PARA EL FOOTER*/
+footer{ 
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-footer{
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      margin: auto;
+      padding-bottom: 50px;
+      border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+  text-align: center;
+}
+
+.titulo-final, .title-foo {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
+
+.cw{
+  color: rgba(255, 255, 255, 0.863);
+}
